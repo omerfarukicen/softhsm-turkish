@@ -14,6 +14,13 @@
 ## Test it
 Docker image write slotNumber file
 
-pin: "123456"
-certificateSerialNumberHex: 24DE370107BB
-slot = Files.readString(Path.of(System.getenv("SOFTHSM_REAL_SLOT_FILE"))).trim();
+         pin: "123456"
+         certificateSerialNumberHex: 24DE370107BB
+         slot = Files.readString(Path.of(System.getenv("SOFTHSM_REAL_SLOT_FILE"))).trim();
+         
+
+
+
+
+
+
